@@ -1,0 +1,186 @@
+/* Página toda */
+body {
+    background-color: #0f1923;
+    color: #ece8e1;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Agrupamento: todos os títulos */
+h1, h2, h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+/* Título principal */
+h1 {
+    color: #ff4655;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 2px #000000;
+    margin: 0;
+}
+
+/* Subtítulos */
+h2 {
+    color: #c8aa6e;
+    font-size: 34px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #ff4655;
+    font-size: 26px;
+}
+
+/* Cabeçalho (id) */
+#topo {
+    background-color: #1f2b36;
+    text-align: center;
+    padding: 40px 16px 30px 16px;
+    border-bottom: 5px solid #ff4655;
+}
+
+/* Frase abaixo do título */
+.subtitulo {
+    font-style: italic;
+    color: #c8aa6e;
+    margin: 8px 0 24px 0;
+}
+
+/* Links do menu */
+.link-menu {
+    color: #ece8e1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 6px 12px;
+    margin: 0 4px;
+    border: 1px solid #2f3e4c;
+    border-radius: 4px;
+}
+
+/* Menu com o mouse em cima */
+.link-menu:hover {
+    color: #ff4655;
+    border-color: #ff4655;
+    text-decoration-line: none;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+/* Caixas das seções (classe) */
+.card {
+    background-color: #1f2b36;
+    padding: 24px 28px;
+    margin-bottom: 32px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #2f3e4c;
+    border-left: 6px solid #ff4655;
+    border-radius: 8px;
+}
+
+/* Manchete da notícia */
+.destaque {
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+figure {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #c8aa6e;
+    border-radius: 6px;
+}
+
+.logo {
+    width: 260px;
+}
+
+/* Legenda da imagem */
+figcaption {
+    font-size: small;
+    font-style: italic;
+    color: #8b978f;
+}
+
+/* Lista não ordenada */
+.lista-info {
+    list-style-type: square;
+    list-style-position: inside;
+    padding: 0;
+}
+
+/* Lista ordenada */
+ol {
+    list-style-type: upper-roman;
+    padding-left: 34px;
+}
+
+/* Itens das listas */
+li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #2f3e4c;
+}
+
+/* Links */
+a {
+    color: #ff4655;
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+/* Links com o mouse em cima */
+a:hover {
+    color: #c8aa6e;
+    text-decoration-line: underline;
+}
+
+/* Link em formato de botão */
+.botao {
+    background-color: #ff4655;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: 2px solid #ff4655;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.botao:hover {
+    background-color: #0f1923;
+    color: #ff4655;
+    text-decoration-line: none;
+}
+
+.centro {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Rodapé (id) */
+#rodape {
+    text-align: center;
+    font-size: 14px;
+    color: #8b978f;
+    padding: 24px 16px;
+    border-top: 2px solid #2f3e4c;
+}
